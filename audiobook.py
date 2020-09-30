@@ -11,3 +11,5 @@ for num in range(1, pages):
     text = page.extractText()
     speaker.say(text)
     speaker.runAndWait()
+    
+    #converts video to audio book
