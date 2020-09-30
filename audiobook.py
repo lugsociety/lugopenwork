@@ -1,5 +1,6 @@
 import pyttsx3
 import PyPDF2
+import OpenCV2
 book = open("C:\\Users\\hp\\Desktop\\401853005_RaghavWadhwa.pdf", 'rb')
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
