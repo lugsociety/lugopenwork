@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'clear_cache',
     'attendance',
-
+    'rest-framework',
 
 ]
 
