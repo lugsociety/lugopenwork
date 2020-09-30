@@ -1,7 +1,8 @@
 import pyttsx3
 import PyPDF2
+import copy
 import OpenCV2
-book = open("C:\\Users\\hp\\Desktop\\401853005_RaghavWadhwa.pdf", 'rb')
+book = open("C:\\Users\\hp\\Desktop\\401853005_RaghavWadhwa.pdf", 'rb') #selecting the file you want to convert
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 
