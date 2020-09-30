@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest-framework',
 
 ]
-
+#features of application
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mysite.urls'
+ROOT_URLCONF = 'mysite.urls'   #django determines the root module to be used
 
 TEMPLATES = [
     {
