@@ -26,7 +26,7 @@ class LoginAPI(generics.GenericAPIView):
 
     def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
+        serializer.is_valid(raise_exception=True) #this validates the type of fields only
         user = serializer.validated_data
         return Response({
             "user":
