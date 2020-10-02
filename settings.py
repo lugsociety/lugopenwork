@@ -59,7 +59,7 @@ ROOT_URLCONF = 'mysite.urls'   #django determines the root module to be used
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR],
+        'DIRS': [TEMPLATE_DIR],  #direct all templates from this path to rendering
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
